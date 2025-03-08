@@ -1,0 +1,15 @@
+.hov:hover .bt  {
+   opacity: 100%;
+   transition: 0.5s  ease ;
+   animation:  identifier 1s ;
+   
+}
+@keyframes identifier {
+    from{
+        scale: 1.2;
+
+    }
+    to{
+        scale: 1;
+    }
+}
